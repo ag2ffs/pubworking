@@ -50,9 +50,38 @@
   width: 100%;
 }
 
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+  background-color: transparent !important;
+}
 
 @media (max-width: 768px) {
+  section h3{
+    background: none;
+    border-bottom: solid 1px #f1c40f;
+  }
   .carousel-control{
     height: 150px;
+  }
+
+  footer .pull-right{
+    float: none !important;
+    margin-top: 20px;
+  }
+
+  .navbar-default .navbar-toggle{
+    background-color: transparent;
+  }
+
+  .navbar-toggle .icon-bar{
+    height: 3px;
+  }
+  .navbar-default .navbar-toggle{
+    border-color: transparent;
+  }
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color: none !important;
+  }
+  .navbar-default .navbar-toggle .icon-bar{
+    background-color: #f1c40f;
   }
 }
