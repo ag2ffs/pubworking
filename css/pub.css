@@ -1,0 +1,160 @@
+body{
+  font-family: 'Conv_Titillium-Regular';
+}
+section#intro{
+  background: url(../img/bg-intro.png) no-repeat;
+  background-size: cover;
+  min-height: 600px;
+  color: #FFF;
+}
+
+section#intro h1{
+  display: block;
+  width: 172px;
+  height: 237px;
+  background: url(../img/logo-ideas-pubworking.png) no-repeat;
+  margin: 0 auto 40px auto;
+  text-indent: -99999999999px;
+}
+
+section#intro h2{
+  font-family: 'Conv_Titillium-Thin';
+  font-size: 40px;
+  margin: 60px 0;
+  text-transform: uppercase;
+}
+
+section#intro .btn-warning{
+  background-color: #f1c40f;
+  border-radius: 60px;
+  padding: 20px 60px 13px 60px;
+  color: #383838;
+  text-transform: uppercase;
+  font-family:'Conv_BebasNeue',Sans-Serif;
+  font-size: 22px;
+}
+
+section#sobre-nos{
+  min-height: 500px;
+}
+
+section#sobre-nos .col-md-12{
+  margin: 0 0 60px 0;
+}
+
+section#sobre-nos p{
+  font-size: 16px;
+}
+
+section{
+  padding: 40px 0;
+}
+
+section h3{
+  background: url(../img/bg-titles.png) no-repeat center center;
+  display: block;
+  min-height: 40px;
+  font-family: 'Conv_Titillium-Thin';
+  font-size: 32px;
+  color: #f1c40f;
+  text-transform: uppercase;
+  margin: 20px 0 40px 0;
+}
+
+section#projetos{
+  background-color: #313236;
+  min-height: 600px;
+}
+
+section#projetos h4{
+  color: #FFF;
+  margin: 20px 0 60px 0;
+}
+
+section#projetos .box{
+  background-color: #FFF;
+  padding: 20px 0 0 0;
+  height: 320px;
+  position: relative;
+  font-size: 16px;
+}
+
+section#projetos .box .brand{
+  height:100px;
+  line-height: 100px;
+  vertical-align: middle;
+}
+
+section#projetos .btn-warning{
+  position: absolute;
+  bottom: 0;
+  border-radius: 0;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 14px 0 10px 0;
+  background-color: #f1c40f;
+  border:none;
+}
+
+section#blog{
+  min-height: 600px
+}
+
+section#blog p{
+  font-size: 22px;
+  margin: 40px 0;
+}
+
+section#blog img{
+  position: relative;
+  width: 100%;
+}
+
+section#blog h4{
+  font-family: 'Conv_Titillium-Thin';
+  font-size: 32px;
+  text-align: left;
+}
+
+section#contato{
+  background-color: #ededed;
+  padding: 40px 0 0 0;
+}
+
+section#contato .col-md-5{
+  min-height: 220px;
+}
+
+section#contato h4,
+section#contato p{
+  text-align: left;
+}
+
+section#contato h4{
+  font-size: 42px;
+}
+
+section#contato p{
+  font-size: 24px;
+}
+
+section#contato img{
+  width: 100%;
+}
+
+section#contato p.mail{
+  margin: 20px 0 10px 0;
+}
+
+footer{
+  text-align: center;
+  font-size: 16px;
+  padding: 60px 0;
+}
+
+
+.info{
+  background-color: #2d2e30;
+  color: #f1c40f;
+  padding: 40px;
+}

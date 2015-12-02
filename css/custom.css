@@ -1,0 +1,47 @@
+.navbar-default{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+  color: #F1C400;
+}
+
+.carousel-indicators{
+  bottom: 236px;
+}
+
+.carousel-control{
+  height: 360px;
+}
+
+.carousel-control.right,
+.carousel-control.left{
+    background-image: linear-gradient(rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
+  margin-top: -30px;
+}
+
+.carousel{
+  padding: 0 0 60px 0;
+}
+
+.item img{
+  margin: 0 0 40px 0;
+}
+
+.item h4{
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+.item p{
+  font-size: 16px;
+}
