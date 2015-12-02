@@ -38,6 +38,10 @@ section#sobre-nos{
   min-height: 500px;
 }
 
+section#sobre-nos img{
+  margin: 0 0 40px 0;
+}
+
 section#sobre-nos .col-md-12{
   margin: 0 0 60px 0;
 }
@@ -77,6 +81,7 @@ section#projetos .box{
   height: 320px;
   position: relative;
   font-size: 16px;
+  margin:0 0 40px 0;
 }
 
 section#projetos .box .brand{
