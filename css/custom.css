@@ -49,3 +49,10 @@
 .carousel-inner>.item>img{
   width: 100%;
 }
+
+
+@media (max-width: 768px) {
+  .carousel-control{
+    height: 150px;
+  }
+}
