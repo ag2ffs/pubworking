@@ -35,6 +35,7 @@
 
 .item img{
   margin: 0 0 40px 0;
+  widows: 100%;
 }
 
 .item h4{
